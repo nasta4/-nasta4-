@@ -1,0 +1,62 @@
+ /* стили для шапки */ 
+ body { 
+  font-family: Arial, sans-serif; 
+  background-image: url("фотки/нгг.jpg"); 
+} 
+ .header { 
+  background-color: #D6001C3B; 
+  text-align: center; 
+  padding: 20px; 
+ } 
+ .header h1 { 
+  color: white; 
+ } 
+ .header h2 { 
+  color: white; 
+ } 
+ 
+ /* стили для карусели */ 
+ .carousel { 
+  overflow: hidden; 
+ } 
+ .carousel ul { 
+  list-style-type: none; 
+  width: 100%; 
+  animation: slide 15s infinite; 
+   
+ } 
+ .carousel li { 
+  float: left; 
+  width: 33.33%; 
+   
+ } 
+ .carousel img { 
+  width: 600px;
+  height: 600px;
+   
+ } 
+
+ @keyframes slide { 
+  0% { left: 0; } 
+  20% { left: 0; } 
+  25% { left: -100%; } 
+  45% { left: -100%; } 
+  50% { left: -200%; } 
+  70% { left: -200%; } 
+  75% { left: -300%; } 
+  95% { left: -300%; } 
+  100% { left: 0; } 
+ } 
+  a {
+    background-color: #FBC38B;
+    font-weight: bold;
+  }
+ /* стили для подвала */ 
+ .footer { 
+  background-color: #123C377A; 
+  text-align: center; 
+  padding: 20px; 
+ } 
+ .footer p { 
+  color: white; 
+ }
